@@ -1,0 +1,12 @@
+ID: approuter_only
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: app_router_module
+   type: nodejs
+   path: app_router_module
+   provides:
+    - name: app_router_module_api
+      properties:
+         url: ${default-url}

@@ -1,0 +1,11 @@
+{
+	"welcomeFile": "index.html",
+	"authenticationMethod": "none",
+	"routes": [
+		{
+		"source": "^/cross(.*)$",
+		"destination": "node-be",
+		"authenticationType": "none"
+		}
+	]
+}
