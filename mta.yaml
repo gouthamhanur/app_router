@@ -23,11 +23,5 @@ modules:
         properties:
           url: '${default-url}'
 
-  - name: git_only
-    type: nodejs
-    path: git_only
-    provides:
-     - name: git_only_api
-       properties:
-          url: ${default-url}
+  
 
